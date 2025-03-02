@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HBD bearr Dari Alika</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body
+    style="
+      background-image: url(gambbarr/baerrr.jpg);
+      background-size: cover;" 
+    class="flex justify-center h-screen w-full items-center"
+  >
+    <div
+      class="bg-white border px-5 py-6 border-2 border-gray-300 shadow-lg shadow-pink-300 rounded-3xl text-center animate__animated animate__backInDown m-10 w-80"
+      id="kartu"
+    >
+    <h1 class= "font-bold tekt-slate-80 text-2xl animate__animated animate__pulse animate__infinite"> Selamat Ulang tahun </h1>
+      <h1 class="text-md">Happy Birthday Hari ini adalah Hari Spesial bagimu dan aku mau hari spesial ini ikut merayakannya, jadi tolong dibuka ya
+        >ᴗ<</h1>
+      <h1
+        class="text-2xl text-yellow-500 font-bold animate__animated animate__pulse animate__infinite"
+      >
+      Spesial untuk 
+      </h1>
+      <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-blue-900 transition ease-in w-60 animate__animated animate__delay-1s animate__tada"
+      onclick="tombolbearr()"
+    >
+      Bearr🧸🤍
+      </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script>
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 },
+      });
+      let kartu = document.getElementById("kartu");
+      function tombolbearr() {
+        kartu.innerHTML = `
+        <img src="gambbarr/bearr1.jpg" alt="" class="rounded-xl" style="margin-bottom: 2.5%;">
+        <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Selamat ulang tahun bearr, apa aku masih pantas memanggil bear??</h1>
+       <h1 class="text-wrap animate__animated animate__zoomIn"> Aku tau dari sekian banyaknya orang yang memberikan ucapan selamat ulang tahun kepada kaka, aku ingin sekali menjadi salah satu diantaranya. izinkan aku untuk mengucapkan selamat ulang tahun untuk kaka. Semoga tahun ini makin banyak kebahagiaan untuk kaka, rezeki lancar dan berlimpah, serta segala impian kaka menjadi kenyataan. 🎉🎂
+    </h1>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="lanjut()"
+    >
+      Namun
+    </button>
+    `;
+      }
+      function lanjut() {
+        kartu.innerHTML = `
+        <img src="gambbarr/bear2.jpg" alt="" class="rounded-xl" style="margin-bottom: 1%;">
+        <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Maaf jika aku tdk bsa mengucapkannya secara langsung didepan kaka, tdk jga memberikan kaka suatu yng kaka inginkan. Akan tetapi setiap langkah yng telah kaka lalui penuh dengan perjuangan dan cerita serta pengalaman indah yng membentuk diri kaka menjadi hebat sampai hari ini. Aku harap Senyum yng ada di tahun sebelumnya akan terus berbentuk di tahun ini dan seterusnya.
+    </h1>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="neks()"
+    >
+      Aminn
+    </button>
+    `;
+      }
+      function neks() {
+        kartu.innerHTML = ` 
+        <img src="gambbarr/bear3.jpg" alt="" class="rounded-xl" style="margin-bottom: 2.5%;">
+      <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Thn lalu Lebaran ini aku dengan kaka msh bsa berkomunikasi dgn baik, namun pda tahun ini akan terasa berbeda, meskipun begitu aku akan trs mendoakan kaka yng terbaik. Ulang tahun ini bkn hnya soal bertambahnya angka, tpi jga tentang bertambahnya kebijaksanaan, keberanian, dan kebahagiaan. Teruslah menjdi pribadi yng menginspirasi & membawa kebaikan bagi banyak orang.
+    </h1>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="jom()"
+    >
+      trakhir
+    </button>
+    `;
+      }
+      function jom() {
+        kartu.innerHTML = `
+      <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Trakhir aku mau ngungkapin permohonan maaf sebesar besarnya kepada kaka, maaf jika lika kurang dan tidak sesuai apa yang kaka kira, Aku harap kaka bisa menerima dan mengerti keadaanya. Maafkan aku apabila selama kaka mengenal aku, aku ada salah atau aku tidak seharusnya melakukan lah itu, aku minta maaf. mungkin itu aja yng bisa ak ungkapkan kepada kaka, hanya sebuah tulisan dengan kalimat yng sederhana "selamat ulang tahun kak". meskipun untuk selalu ada serta menjaga kaka & cacam sudah putus akan tetapi doaku untuk kaka & cacam tdk pernah putus. </h1>
+      <h1 class="text-wrap animate__animated animate__zoomIn"> 'kak apakah aku masih bisa mengobrol dengan cacam mungkin ak sdh tidak pantas lagi hanya saja ak ingin ngobrol dengan dia untuk trakhir ini. jika tidak, aku harap dia yang baca karna ada suatu pesanku buat dia juga disini semoga dia baca >ᴗ<. '
+    </h1>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="oke()"
+    >
+    To Ade Cacam Rawrr🦖
+    </button>
+    `;
+      }
+
+
+      function oke() {
+        kartu.innerHTML = `    <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Hallooo Cacam Sayang❤︎, kaka masih boleh gk panggil sayang cacam??. atau kaka panggil ade cacam aja ya kalau gitu. haiii baby boyy gimana kabarnya sehat trus ya cacam. Disini kaka mau ngungkapin semua perasaan kaka, kaka mau minta maaf banget sama cacam sdh tidak bisa bareng" lagi sdh tidak bisa ngobrol lagi, cerita lagi, main bareng lagi, maafin kaka ya cacam kaka mengaku kaka salah, tpi izinkan kaka ingin sekali mengatakan sesuatu sama cacam
+    </h1>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="lanjuttt()"
+    >
+      lanjut ya
+    </button>
+    `;
+      }
+      function lanjuttt() {
+        kartu.innerHTML = `    <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Terima kasih telah menjadi bagian dari hidup kaka levi, menjaga kaka levi, membawa senyumannya, dan menyebarkan semangat positif untuk kak levi. Hari ini adalah hari perayaan cacam dan juga kak levi. Selamat ulang tahun ade cacam, maaf kaka blm bisa ngasih yang terbaik buat cacam juga buat kaka levi, kaka tau kaka disini sdh tidak pantas lagi tpi untuk trakhir ini kaka mau ngungkapkan permohonan maaf kaka ke cacam 🎉🎂
+    </h1>
+    </h2>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="yess()"
+    >
+      lanjut yuk
+    </button>
+    `;
+      }
+      function yess() {
+        kartu.innerHTML = `    <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Meskipun kita sdh tidak komunikasi lagi tpi doa kaka buat cacam akan selalu ada buat cacam, Semangat ya baby boy semoga menjadi anak yang hebat selalu menjadi kebanggakan oleh kak levi, sebanarnya masih banyak lagi yang kaka ingin sampaikan tapi kaka sdh tidak bisa mengobrol banyak kepada cacam maupun ke kaka levi, sekali lagi semoga tahun ini cacam heppy trus sehat trus dan juga menjadi anak yang keren, i love you cacam💖</h1>
+      <h1 class="font-semibold text-wrap animate__animated animate__zoomIn"> Cacam kaka mau titip pesan buat kak levi gak? jika kak levi pengen dan perlu baju dan barangnya kak levi yang ada sama kaka tolong kasih tau ya, kaka gk tau klu suatu ketika kak levi perlu dan kaka gk tau harus gimana jdi kasih tau kaka ya klu mau barangnya kasih tau kak lika, oke makasih Ade Cacam Rawrr🦖❤︎</h1>
+    </h2>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="refresh()"
+    >
+      Terimakasih banyak🤍
+    </button>
+    `;
+      }
+    
+      function refresh() {
+        location.reload();
+      }
+    </script>
+  </body>
+</html>
